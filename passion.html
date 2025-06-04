@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Passions - Pierre-Félix Simon</title>
+    <link rel="stylesheet" href="stylepage1.css">
+  </head>
+
+  <body>
+
+    <div class="header">
+      <img src="photopif.jpg" alt="Photo de Pierre-Félix Simon" class="photo-profil">
+      <div>
+        <h1>Pierre-Félix Simon</h1>
+        <p>Futur ingénieur en Génie Industriel 4.0 (ENSIBS)</p>
+      </div>
+    </div>
+
+    <div class="menu">
+      <a href="index.html">Accueil</a>
+      <a href="parcours.html">Parcours</a>
+      <a href="competences.html">Compétences</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="passion.html">Passions</a>
+      <a href="projetpif.html" class="btn-pif">Equipements Sonorisations</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="main1">
+      <h2>Mes Passions</h2>
+
+      <ul>
+        <li><strong>Photographie</strong> : J’apprécie la photographie en milieu festif</li>
+        <li><strong>Skateboard</strong> et <strong>VTT</strong> : Fortement sportif et impliqué dans la découverte de nouveaux paysages</li>
+        <li><strong>Technologie et Sonorisation</strong> : Je m’intéresse à la technique audio, aux installations et matériels lié à la sonorisation</li>
+      </ul>
+
+      <h3> Sortie de vélo classique typique vendredi soir</h3>
+      <iframe src="https://www.youtube.com/embed/TP_0Vv5F29I?start=194" title="Vélo vendredi soir" allowfullscreen></iframe>
+
+      <h3>Du bon son pour apprécier cette page web</h3>
+      <audio controls>
+        <source src="sonorisation.mp3" type="audio/mpeg">
+      </audio>
+
+      <h3>Galerie photo</h3>
+      <div id="galerie-container" style="text-align: center; margin-top: 20px;">
+        <img id="galerie-photo" src="photo1.jpg" alt="Photo" style="width: 700px; border-radius: 10px;">
+        <div style="margin-top: 10px;">
+          <button onclick="photoPrecedente()">Précédente</button>
+          <button onclick="photoSuivante()">Suivante</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>2025 PifProduction - Tous droits réservés</p>
+    </div>
+
+    <!-- Lien vers le fichier JS externe -->
+    <script src="galerie.js"></script>
+
+  </body>
+</html>

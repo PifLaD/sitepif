@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff0f5;
+}
+
+.header {
+  background-image: url("crazy.gif");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+
+.main1 {
+  padding: 40px;
+  background-color: white;
+  color: #333;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: auto;
+}
+
+.image-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.img-pif {
+  width: 100%;
+  max-width: 700px;
+  border: 3px solid #ff99bb;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 182, 193, 0.5);
+}
+
+.equipement-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.equipement-table th, .equipement-table td {
+  border: 1px solid #ffa6c9;
+  padding: 12px;
+  text-align: left;
+}
+
+.equipement-table th {
+  background-color: #ffc0cb;
+  color: #4a0033;
+}
+
+.equipement-table td {
+  background-color: #fff5f8;
+}
+
+.btn-retour {
+  display: inline-block;
+  padding: 12px 20px;
+  margin-top: 30px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-retour:hover {
+  background-color: #d64894;
+}
+
+.footer {
+  background-color: #ffe6eb;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #4a0033;
+  margin-top: 40px;
+}

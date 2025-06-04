@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Contact - Pierre-Félix Simon</title>
+    <link rel="stylesheet" href="stylepage1.css">
+  </head>
+
+  <body>
+
+    <div class="header">
+      <img src="photopif.jpg" alt="Photo de Pierre-Félix Simon" class="photo-profil">
+      <div>
+        <h1>Pierre-Félix Simon</h1>
+        <p>Futur ingénieur en Génie Industriel 4.0 (ENSIBS)</p>
+      </div>
+    </div>
+
+    <div class="menu">
+      <a href="index.html">Accueil</a>
+      <a href="parcours.html">Parcours</a>
+      <a href="competences.html">Compétences</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="passion.html">Passions</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="main1">
+      <h2>Contact</h2>
+
+      <p><strong>Email :</strong> <a href="mailto:pierrefelixsimon@gmail.com">pierrefelixsimon@gmail.com</a></p>
+      <p><strong>Téléphone :</strong> 07 81 XX XX XX</p>
+      <p><strong>Adresse :</strong> 17 LE CHAMP DOLO HENON</p>
+      <p><strong>Profil :</strong> <a href="https://urlz.fr/jz4L" target="_blank">https://urlz.fr/jz4L</a></p>
+      <p><strong>Permis :</strong> B</p>
+
+      <h3>Envoyer un message :</h3>
+
+      <form action="mailto:pierrefelixsimon@gmail.com" method="post" enctype="text/plain">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+
+                <label for="raison">Raison du contact :</label>
+<select id="raison" name="raison" required>
+  <option value="">Sélectionnez une raison</option>
+  <option value="questions">Questions</option>
+  <option value="offre">Offre</option>
+  <option value="compliment">Compliment</option>
+  <option value="autre">Autre</option>
+</select>
+<br><br>
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+
+
+
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Réinitialiser">
+      </form>
+    </div>
+
+    <div class="footer">
+      <p>2025 PifProduction - Tous droits réservés</p>
+    </div>
+
+  </body>
+</html>
